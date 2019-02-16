@@ -8,15 +8,23 @@
     <meta name="description" content="" />
     <meta name="keyword" content="" />
     <title>React Hooks!</title>
+    <style>
+      html,
+      body,
+      #app,
+      #app > div {
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
 
-    <!-- Dependencies -->
-    <script src="./node_modules/react/umd/react.development.js"></script>
-    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+    <!-- Dependencies: These not used when webpack-dev-server --mode development -->
+    <!-- <script src="./node_modules/react/umd/react.development.js"></script> -->
+    <!-- <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>-->
 
     <!-- Main -->
-    <script src="./dist/bundle.js"></script>
+    <!-- <script src="./dist/bundle.js"></script> -->
   </body>
 </html>
