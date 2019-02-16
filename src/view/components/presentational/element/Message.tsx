@@ -19,6 +19,6 @@ const Message: FunctionComponent<Props> = (props: Props) => {
   return <StyledMessage>{props.text || "..."}</StyledMessage>
 }
 
-const StyledMessage = styled.text``
+const StyledMessage = styled.p``
 
 export default Message
