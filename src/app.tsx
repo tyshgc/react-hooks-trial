@@ -5,7 +5,7 @@ import * as React from "react"
 import * as ReactDOM from "react-dom"
 
 // Components
-import { Hoge } from "./view/components/presentational/element"
+import { Calculator } from "./view/components/domain/element"
 
 // Main Renderer
-ReactDOM.render(<Hoge />, document.getElementById("app"))
+ReactDOM.render(<Calculator />, document.getElementById("app"))

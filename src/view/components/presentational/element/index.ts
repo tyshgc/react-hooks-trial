@@ -2,6 +2,7 @@
  * Presentational Element Index
  */
 
-import Hoge from "./Hoge"
+import IncrementButton from "./IncrementButton"
+import Message from "./Message"
 
-export { Hoge }
+export { IncrementButton, Message }
