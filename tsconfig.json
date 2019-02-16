@@ -12,7 +12,8 @@
     "typeRoots": ["typings", "node_modules/@types"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "skipLibCheck": true
   },
   "include": ["./src/**/*"]
 }
