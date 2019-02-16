@@ -6,14 +6,17 @@
  */
 
 import * as React from "react"
-import * as ReactDOM from "react-dom"
+import { useState } from "react"
+import { Button } from "@smooth-ui/core-sc"
 
 // Types
-interface Props {}
+interface Props {
+  message?: string
+}
 
 // Component
 const Hoge = (props: Props) => {
-  return <div>Hoge</div>
+  return <Button size="lg">Push</Button>
 }
 
 export default Hoge
