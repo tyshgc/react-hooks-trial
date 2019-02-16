@@ -1,0 +1,26 @@
+{
+  "name": "react-hooks-trial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tyshgc/react-hooks-trial.git",
+  "author": "tyshgc <hello@tyshgc.pw>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.2.4"
+  }
+}
