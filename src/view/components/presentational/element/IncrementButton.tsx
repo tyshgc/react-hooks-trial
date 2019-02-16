@@ -26,11 +26,9 @@ const IncrementButton: FunctionComponent<Props> = (props: Props) => {
 
   // render
   return (
-    <>
-      <Button size="lg" onClick={onClickEvent}>
-        {label || "Increment!"}
-      </Button>
-    </>
+    <Button size="lg" onClick={onClickEvent}>
+      {label || "Increment!"}
+    </Button>
   )
 }
 
