@@ -16,7 +16,7 @@ interface Props {
 }
 
 // Component
-const IncrementButton: FunctionComponent<Props> = (props: Props) => {
+export const IncrementButton: FunctionComponent<Props> = ({ ...props }) => {
   const { label, onPress } = props
 
   const onClickEvent = () => {
@@ -31,5 +31,3 @@ const IncrementButton: FunctionComponent<Props> = (props: Props) => {
     </Button>
   )
 }
-
-export default IncrementButton
