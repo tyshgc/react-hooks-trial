@@ -1,6 +1,7 @@
 /**
  * Domain Element Index
  */
-import Calculator from "./Calculator"
+import { CalculationDisplay } from "./CalculationDisplay"
+import { Sakata } from "./Sakata"
 
-export { Calculator }
+export { CalculationDisplay, Sakata }

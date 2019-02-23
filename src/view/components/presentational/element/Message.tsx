@@ -6,7 +6,7 @@
  */
 
 import * as React from "react"
-import { FunctionComponent } from "react"
+import { memo, FunctionComponent } from "react"
 import styled from "styled-components"
 
 // Types
@@ -15,10 +15,8 @@ interface Props {
 }
 
 // Component
-const Message: FunctionComponent<Props> = (props: Props) => {
+export const Message: FunctionComponent<Props> = memo(({ ...props }) => {
   return <StyledMessage>{props.text || "..."}</StyledMessage>
-}
+})
 
 const StyledMessage = styled.p``
-
-export default Message
